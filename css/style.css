@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kudry';
+    src: url('../fonts/kudry_weird-headline.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kudry', sans-serif;
+}
+
+body, p {
+    font-family: 'Manrope', sans-serif !important;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #F6F1E9;
+}
+
+/* Hero Section */
+.image-fullscreen img {
+    height: 440px;
+    object-fit: cover;
+}
+
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    font-size: 1.5rem;
+}
+
+header .nav-link {
+    color: #333333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header .nav-link:hover {
+    color: #128475; /* Тёмный бирюзовый */
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #F6F1E9;
+    color: #333333;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555555;
+}
+
+.hero .btn {
+    background-color: #D94E41; /* Глубокий коралловый */
+    border-color: #D94E41;
+    font-weight: bold;
+    padding: 10px 30px;
+    transition: background-color 0.3s ease;
+    color: #ffffff;
+}
+
+.hero .btn:hover {
+    background-color: #B74135; /* Более тёмный коралловый */
+}
+
+/* About Section */
+#about {
+    background-color: #ffffff;
+    padding: 60px 20px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #128475; /* Тёмный бирюзовый */
+    margin-bottom: 20px;
+}
+
+#about .lead {
+    font-size: 1.1rem;
+    color: #555555;
+}
+
+#about .rounded-circle {
+    border: 3px solid #128475; /* Тёмный бирюзовый */
+}
+
+#about .blockquote {
+    border-left: 5px solid #128475;
+    padding-left: 15px;
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+#about .p-3 {
+    background-color: #F6F1E9;
+    border-left: 5px solid #8DAA91; /* Оливковый зелёный */
+}
+
+/* Tours Section */
+#tours {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+#tours h2 {
+    font-size: 2rem;
+    color: #128475; /* Тёмный бирюзовый */
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.card-text {
+    color: #555555;
+}
+
+.card-footer {
+    background-color: #ffffff;
+    border-top: none;
+}
+
+.card-footer .btn {
+    background-color: #D94E41; /* Глубокий коралловый */
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.card-footer .btn:hover {
+    background-color: #B74135; /* Более тёмный коралловый */
+}
+
+/* Booking Section */
+#booking {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+#booking h2 {
+    font-size: 2rem;
+    color: #128475; /* Тёмный бирюзовый */
+}
+
+#booking p {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+#booking .form-control {
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+#booking .form-control:focus {
+    border-color: #128475; /* Тёмный бирюзовый */
+    box-shadow: 0 0 5px rgba(18, 132, 117, 0.5);
+}
+
+#booking .btn {
+    background-color: #D94E41; /* Глубокий коралловый */
+    border: none;
+    font-weight: bold;
+    padding: 12px 30px;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+#booking .btn:hover {
+    background-color: #B74135; /* Более тёмный коралловый */
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: #f8f9fa;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+#contactButton {
+    background-color: #D94E41; /* Глубокий коралловый */
+    border: none;
+    font-weight: bold;
+    padding: 12px 30px;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+#contactButton:hover {
+    background-color: #B74135; /* Более тёмный коралловый */
+}
