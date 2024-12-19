@@ -27,7 +27,6 @@ body {
     background-color: #F6F1E9;
 }
 
-/* Hero Section */
 .image-fullscreen img {
     height: 440px;
     object-fit: cover;
@@ -50,6 +49,11 @@ header .nav-link {
 header .nav-link:hover {
     color: #128475; /* Тёмный бирюзовый */
     text-decoration: underline;
+}
+
+.h4 .fw-bold {
+    font-family: 'Kudry', sans-serif;
+    font-size: 2rem;
 }
 
 .hero {
@@ -82,7 +86,6 @@ header .nav-link:hover {
     background-color: #B74135; /* Более тёмный коралловый */
 }
 
-/* About Section */
 #about {
     background-color: #ffffff;
     padding: 60px 20px;
